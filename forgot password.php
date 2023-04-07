@@ -84,7 +84,7 @@ if(isset($message)){
 <section class="login-box">
 
    <form action="" enctype="multipart/form-data" method="POST">
-      <h2>register now</h2>
+      <h2>Forgot</h2>
       <input type="text" name="name" class="box" placeholder="enter your name" required>
       <input type="email" name="email" class="box" placeholder="enter your email" required>
       <input type="password" name="pass" class="box" placeholder="enter your password" required>
