@@ -10,7 +10,7 @@ body{
 .login-box {
     width: 320px;
     height: 450px;
-    background: lightgreen;
+    background: rgb(190, 240, 190);
     margin: 150px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #635b5b, -5px -5px 10px #000;
@@ -67,7 +67,7 @@ body{
     border: none;
     height: 40px;
     border-radius: 25px;
-    background: rgb(64, 172, 64);
+    background: rgb(125, 234, 125);
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -87,7 +87,7 @@ body{
   
   a {
     margin-left: 32%;
-    color: #8f8888;
+    color: #e1d7d7;
     font-size: 16px;
     text-decoration: none;
   }
