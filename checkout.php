@@ -39,7 +39,7 @@ if(isset($_POST['order'])){
 
    $total_products = implode(', ', $cart_products);
 
-   $order_query = $conn->prepare("SELECT * FROM `orders` WHERE name = ? AND number = ? AND email = ? AND method = ? AND address = ? AND total_products = ? AND total_price = ?");
+   $order_query = $conn->prepare("SELECT * FROM `orders` WHERE  name = ? AND number = ? AND email = ? AND method = ? AND address = ? AND total_products = ? AND total_price = ?");
    $order_query->execute([$name, $number, $email, $method, $address, $total_products, $cart_total]);
 
    if($cart_total == 0){

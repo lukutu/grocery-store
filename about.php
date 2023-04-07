@@ -60,8 +60,8 @@ if(!isset($user_id)){
    <div class="box-container">
 
       <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <img src="images/pic-1.jpg" alt="">
+         <p>Great experience! Easy to navigate website and fast delivery. Fresh produce and competitive prices. Will order again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -69,12 +69,12 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Letting</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <img src="images/pic-1.jpg" alt="">
+         <p>Fast delivery, great selection and competitive prices. Will definithis online grocery shop again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -82,12 +82,12 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Letting</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <img src="images/pic-1.jpg" alt="">
+         <p>Great service, fast delivery, and high-quality products. I'm impressed with this online grocery shop and will be a repeat customer.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -95,12 +95,12 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Letting</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <img src="images/pic-1.jpg" alt="">
+         <p>Mindblowing online grocery shopping experience - easy to navigate website, timely delivery, and fresh products. Highly recommend!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -108,12 +108,12 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Letting</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <img src="images/pic-1.jpg" alt="">
+         <p>Excellent online grocery shop, great prices, and fast delivery. Will definitely use again for my weekly grocery shopping.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -121,12 +121,12 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Letting</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <img src="images/pic-1.jpg" alt="">
+         <p>Fast delivery and fresh products, great online shopping experience overall. Will definitely be ordering from this store again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -134,7 +134,7 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Letting</h3>
       </div>
 
    </div>
