@@ -77,7 +77,8 @@ if(isset($message)){
 <section>
 
 <section class="login-box">
-   <img src=""/>
+   
+   <img  src="images/about-img-2.png">
 <form action="" method="POST">
    <h2> login </h2>
             
