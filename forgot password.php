@@ -1,4 +1,5 @@
-<?php
+<?php require_once "controllerUserData.php"; 
+
 
 include 'config.php';
 
@@ -45,8 +46,8 @@ if(isset($_POST['submit'])){
    }
 
 }
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,38 +65,35 @@ if(isset($_POST['submit'])){
 
 </head>
 <body>
-  
-
-<?php
-
-if(isset($message)){
-   foreach($message as $message){
-      echo '
-      <div class="message">
-         <span>'.$message.'</span>
-         <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-      </div>
-      ';
-   }
-}
-
-?>
-   
-<section class="login-box">
-
-   <form action="" enctype="multipart/form-data" method="POST">
-      <h2>Forgot</h2>
-      <input type="text" name="name" class="box" placeholder="enter your name" required>
-      <input type="email" name="email" class="box" placeholder="enter your email" required>
-      <input type="password" name="pass" class="box" placeholder="enter your password" required>
-      <input type="password" name="cpass" class="box" placeholder="confirm your password" required>
-      <input type="file" name="image" class="box" required accept="image/jpg, image/jpeg, image/png">
-      <input type="submit" value="register now" class="btn" name="submit">
-      <p>already have an account? <a href="login.php">login now</a></p>
-   </form>
-
-</section>
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 form">
+                <form action="forgot-password.php" method="POST" autocomplete="">
+                    <h2 class="text-center">Forgot Password</h2>
+                    <p class="text-center">Enter your email address</p>
+                    <?php
+                        if(count($errors) > 0){
+                            ?>
+                            <div class="alert alert-danger text-center">
+                                <?php 
+                                    foreach($errors as $error){
+                                        echo $error;
+                                    }
+                                ?>
+                            </div>
+                            <?php
+                        }
+                    ?>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Enter email address" required value="<?php echo $email ?>">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control button" type="submit" name="check-email" value="Continue">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
