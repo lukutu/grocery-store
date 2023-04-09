@@ -131,7 +131,7 @@ if(isset($_GET['delete'])){
          while($fetch_products = $show_products->fetch(PDO::FETCH_ASSOC)){  
    ?>
    <div class="box">
-      <div class="price">ksh<?= $fetch_products['price']; ?>/-</div>
+      <div class="price">ksh<?= $fetch_products['price']; ?></div>
       <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
       <div class="name"><?= $fetch_products['name']; ?></div>
       <div class="cat"><?= $fetch_products['category']; ?></div>
@@ -144,7 +144,7 @@ if(isset($_GET['delete'])){
    <?php
       }
    }else{
-      echo '<p class="empty">now products added yet!</p>';
+      echo '<p class="empty">no products added yet!</p>';
    }
    ?>
 
