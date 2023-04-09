@@ -104,6 +104,7 @@ if(isset($_GET['delete'])){
                <option value="fruits">fruits</option>
                <option value="meat">meat</option>
                <option value="fish">fish</option>
+               <option value="fish">dairy</option>
          </select>
          </div>
          <div class="inputBox">
@@ -130,7 +131,7 @@ if(isset($_GET['delete'])){
          while($fetch_products = $show_products->fetch(PDO::FETCH_ASSOC)){  
    ?>
    <div class="box">
-      <div class="price">$<?= $fetch_products['price']; ?>/-</div>
+      <div class="price">ksh<?= $fetch_products['price']; ?>/-</div>
       <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
       <div class="name"><?= $fetch_products['name']; ?></div>
       <div class="cat"><?= $fetch_products['category']; ?></div>
