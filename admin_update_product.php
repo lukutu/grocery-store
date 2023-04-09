@@ -96,6 +96,7 @@ if(isset($_POST['update_product'])){
          <option value="fruits">fruits</option>
          <option value="meat">meat</option>
          <option value="fish">fish</option>
+         <option value="dairy">dairy</option>
       </select>
       <textarea name="details" required placeholder="enter product details" class="box" cols="30" rows="10"><?= $fetch_products['details']; ?></textarea>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png">
