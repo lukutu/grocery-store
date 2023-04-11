@@ -73,7 +73,7 @@ if(!isset($user_id)){
       </div>
 
       <div class="box">
-         <img src="images/face-2.png" alt="">
+         <img src="images/face-2.jpg" alt="">
          <p>Fast delivery, great selection and competitive prices. Will definithis online grocery shop again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -82,7 +82,7 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Kevin Letting</h3>
+         <h3>Dennis Ombachi</h3>
       </div>
 
       <div class="box">
@@ -99,7 +99,7 @@ if(!isset($user_id)){
       </div>
 
       <div class="box">
-         <img src="images/pic-1.jpg" alt="">
+         <img src="images/pic-4.png" alt="">
          <p>Mindblowing online grocery shopping experience - easy to navigate website, timely delivery, and fresh products. Highly recommend!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -108,11 +108,11 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Kevin Letting</h3>
+         <h3>Faith Mutai</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-1.jpg" alt="">
+         <img src="images/pic-1.avif" alt="">
          <p>Excellent online grocery shop, great prices, and fast delivery. Will definitely use again for my weekly grocery shopping.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
