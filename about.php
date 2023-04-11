@@ -73,7 +73,7 @@ if(!isset($user_id)){
       </div>
 
       <div class="box">
-         <img src="images/pic-1.jpg" alt="">
+         <img src="images/face-2.png" alt="">
          <p>Fast delivery, great selection and competitive prices. Will definithis online grocery shop again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
