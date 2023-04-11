@@ -68,7 +68,7 @@ body{
     height: 40px;
     border-radius: 25px;
     background: rgb(125, 234, 125);
-    color: white;
+    color: #000;
     font-size: 20px;
     cursor: pointer;
     box-shadow:  1px 3px 4px #000;
@@ -76,10 +76,13 @@ body{
     font-family: nunito;
     font-weight: 1;
   }
-  
+  .btn:hover{
+    transform: scale(1.02);
+  }
   input:focus {
     box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
   }
+ 
   
   button:active {
     box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
@@ -90,4 +93,18 @@ body{
     color: #080808;
     font-size: 16px;
     text-decoration: none;
+    
+  }
+  .tesa{
+    font-weight: 700;
+    color: rgb(87, 149, 66);
+  }
+  .tesa:hover{
+
+    color: rgb(7, 67, 7);
+    transition: .2s;
+    transform: scale(1.2);
+  }
+  .state{
+    color: rgb(23, 75, 23);
   }

@@ -85,11 +85,11 @@ if(isset($message)){
    <input type="email" name="email" class="box" placeholder="enter your email" required>
    <input type="password" name="pass" class="box" placeholder="enter your password" required>
    <input type="submit" value="login now" class="btn" name="submit">
-   <p>don't have an account? <a href="register.php">register now</a></p>
+   <p class="state">don't have an account? <a href="register.php" class="tesa">Register now</a></p>
    
               </form>
             <form action=" "method="POST">
-               <P> <a href="forgot password.php">Forgot  Password?</a></P>
+               <P> <a href="forgot password.php" class="tesa">Forgot  Password?</a></P>
             </form>
             
           </div>

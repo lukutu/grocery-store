@@ -257,7 +257,7 @@ section{
 }
 
 .header .flex .navbar a:hover{
-   text-decoration: underline;
+   text-decoration: none;
    color:var(--green);
 }
 
