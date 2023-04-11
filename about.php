@@ -60,7 +60,7 @@ if(!isset($user_id)){
    <div class="box-container">
 
       <div class="box">
-         <img src="images/pic-1.jpg" alt="">
+         <img src="images/pic-5.png" alt="">
          <p>Great experience! Easy to navigate website and fast delivery. Fresh produce and competitive prices. Will order again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -69,7 +69,7 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Kevin Letting</h3>
+         <h3>Brian Letting</h3>
       </div>
 
       <div class="box">
