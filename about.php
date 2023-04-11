@@ -86,7 +86,7 @@ if(!isset($user_id)){
       </div>
 
       <div class="box">
-         <img src="images/pic-1.jpg" alt="">
+         <img src="images/face-4.avif" alt="">
          <p>Great service, fast delivery, and high-quality products. I'm impressed with this online grocery shop and will be a repeat customer.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -121,11 +121,11 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Kevin Letting</h3>
+         <h3>Bach Monanti</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-1.jpg" alt="">
+         <img src="images/face-3.jpg" alt="">
          <p>Fast delivery and fresh products, great online shopping experience overall. Will definitely be ordering from this store again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -134,7 +134,7 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Kevin Letting</h3>
+         <h3>Lucy Laura</h3>
       </div>
 
    </div>
